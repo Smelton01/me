@@ -31,4 +31,5 @@ const App = () => (
     </Suspense>
   </BrowserRouter>
 );
+
 export default App;
