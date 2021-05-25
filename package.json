@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "1.0.1",
-  "homepage": "https://smelton01.github.io/personal-site/",
+  "homepage": "https://smelton01.github.io/me/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/smelton01/personal-site.git"
+    "url": "https://github.com/smelton01/me.git"
   },
   "scripts": {
     "build": "react-scripts build",

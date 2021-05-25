@@ -1,47 +1,48 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
+    title: 'OCR Sudoku',
+    subtitle: 'React + Flask personal project',
     image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    date: '2020-12-20',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Sudoku app uses OpenCV based OCR network to read Sudoku grid from uploaded image. '
+      + 'Allows users to play uploaded grid and visualize the solution obtained, '
+      + 'through the backtracking algorithm. ',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
+    title: 'FUK NOW Classifieds',
+    subtitle: 'AI, React, algirithm solving project',
     link: 'https://devpost.com/software/harvest',
     image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    date: '2021-01-20',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'App allows users to input their name and email address to subscribe '
+      + 'or updates when new posts are made to the Fukuoka-now Classified section, '
+      + 'a platform for foreign residents of the city to buy and sell used goods. '
+      + 'Web scraping, email server, database management, web app.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
+    title: 'Barney bot',
+    subtitle: 'A twitter bot',
     link: 'http://www.spacepotato.org',
     image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    date: '2020-04-13',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'A twitter bot designed to respond to posts about the How I Met Your Mother '
+      + 'TV show. The bot responses are based on an Recurrent Neural Network based '
+      + 'on the script from the entire 9 seasons of the show, scraped from IMDB.',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
+    title: 'URLs',
+    subtitle: 'A URL shortener microservice',
     image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    date: '2021-05-01',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'A URL shortener microservice designed using express.js. '
+      + 'Post requests made to the API are responded to with the '
+      + 'shortened url. A valid url with the aapi as base will be '
+      + 'redirected to the original url saved in the database',
   },
 ];
 
