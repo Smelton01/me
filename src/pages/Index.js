@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import EmailLink from '../components/Contact/EmailLink';
 
 import Main from '../layouts/Main';
 
@@ -17,6 +18,7 @@ const Index = () => (
           </p>
         </div>
       </header>
+      <EmailLink />
       <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
         or you can check out my {' '}
         <Link to="/resume">resume</Link>, {' '}
@@ -24,7 +26,7 @@ const Index = () => (
         view <Link to="/stats">site statistics</Link>, {' '}
         or <Link to="/contact">contact</Link> me.
       </p>
-      <p> Source available <a href="https://github.com/smelton01/personal-site">here</a>.</p>
+      <p> Source available <a href="https://github.com/smelton01/me">here</a>.</p>
     </article>
   </Main>
 );
