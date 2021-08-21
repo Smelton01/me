@@ -18,9 +18,9 @@ const skills = [
     category: ['Web Development', 'Javascript'],
   },
   {
-    title: 'Bash',
-    competency: 2,
-    category: ['Tools', 'Languages'],
+    title: 'Go',
+    competency: 4,
+    category: ['Languages', 'Web Development'],
   },
   {
     title: 'Amazon Web Services',
@@ -58,11 +58,6 @@ const skills = [
     category: ['Tools'],
   },
   {
-    title: 'Docker',
-    competency: 3,
-    category: ['Tools', 'Data Engineering'],
-  },
-  {
     title: 'Google Cloud Compute',
     competency: 3,
     category: ['Tools', 'Web Development'],
@@ -98,29 +93,19 @@ const skills = [
     category: ['Languages', 'Python'],
   },
   {
-    title: 'C++',
+    title: 'Java',
     competency: 2,
     category: ['Languages'],
   },
   {
     title: 'MATLAB',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'Data Visualization',
     competency: 3,
-    category: ['Data Science', 'Javascript'],
+    category: ['Languages'],
   },
   {
     title: 'GraphQL',
     competency: 2,
     category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'Pandas',
-    competency: 5,
-    category: ['Data Engineering', 'Data Science', 'Python'],
   },
   {
     title: 'Matplotlib',

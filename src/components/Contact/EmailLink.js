@@ -12,17 +12,17 @@ const messages = [
   'hi',
   'hello',
   'hola',
-  'you-can-email-me-at-literally-anything! Really',
-  'well, not anything. But most things',
-  'like-this',
-  'or-this',
-  'but not this :(  ',
-  'you.can.also.email.me.with.specific.topics.like',
+  'Konnichiwa',
+  'It is very nice to meet you',
+  'welcome to my personal site',
+  'feel free to look around and learn more about me',
+  'but not this',
+  'you.can.also.get.in.touch.if.you.have.any.questions.or.want.to.collaborate',
   'just-saying-hi',
   'please-work-for-us',
-  'help',
-  'admin',
-  'or-I-really-like-your-website',
+  'tommorrow is another day',
+  'tommorow never comes until its too late',
+  'tommorow belongs to the people who prepare for it today',
   'thanks',
 ];
 
@@ -72,7 +72,7 @@ const EmailLink = () => {
   return (
     <div
       className="inline-container"
-      style={validateText(message) ? {} : { color: 'red' }}
+      style={validateText(message) ? {} : { color: 'white' }}
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
