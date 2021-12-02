@@ -7,9 +7,12 @@ import Education from '../components/Resume/Education';
 import Skills from '../components/Resume/Skills';
 
 import degrees from '../data/resume/degrees';
+import positions from '../data/resume/positions';
 import { skills, categories } from '../data/resume/skills';
+import Experience from '../components/Resume/Experience';
 
 const sections = [
+  'Work Experience',
   'Education',
   'Skills',
 ];
@@ -32,6 +35,7 @@ const Resume = () => (
 
         </div>
       </header>
+      <Experience data={positions} />
       <Education data={degrees} />
       <Skills skills={skills} categories={categories} />
 
