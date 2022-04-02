@@ -1,7 +1,7 @@
 const positions = [
   {
     company: 'Reqrea',
-    position: 'Intern',
+    position: 'Software Engineer - Part-time',
     link: 'https://reqrea.co.jp/',
     daterange: 'December 2021 - Present',
     points: [
