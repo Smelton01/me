@@ -1,6 +1,3 @@
-// TODO: Add Athletic Skills, Office Skills,
-// Data Engineering, Data Science, ML Engineering, ... ?
-
 const skills = [
   {
     title: 'Javascript',
@@ -19,12 +16,12 @@ const skills = [
   },
   {
     title: 'Go',
-    competency: 4,
+    competency: 5,
     category: ['Languages', 'Web Development'],
   },
   {
     title: 'Amazon Web Services',
-    competency: 3,
+    competency: 4,
     category: ['Web Development', 'Tools'],
   },
   {
@@ -38,14 +35,29 @@ const skills = [
     category: ['Web Development', 'Databases', 'Languages'],
   },
   {
-    title: 'Data Mining',
+    title: 'Swift',
     competency: 3,
-    category: ['Data Science'],
+    category: ['Languages', 'Mobile Development'],
+  },
+  {
+    title: 'VIM',
+    competency: 3,
+    category: ['Tools'],
+  },
+  {
+    title: 'Redis',
+    competency: 3,
+    category: ['Languages', 'Databases', 'Web Development'],
   },
   {
     title: 'Express.JS',
     competency: 4,
     category: ['Web Development', 'Javascript'],
+  },
+  {
+    title: 'Laravel',
+    competency: 3,
+    category: ['Web Development', 'Languages'],
   },
   {
     title: 'Flask',
@@ -54,11 +66,11 @@ const skills = [
   },
   {
     title: 'Git',
-    competency: 3,
+    competency: 4,
     category: ['Tools'],
   },
   {
-    title: 'Google Cloud Compute',
+    title: 'Google Cloud Platform',
     competency: 3,
     category: ['Tools', 'Web Development'],
   },
@@ -79,12 +91,12 @@ const skills = [
   },
   {
     title: 'Typescript',
-    competency: 2,
+    competency: 4,
     category: ['Web Development', 'Languages', 'Javascript'],
   },
   {
     title: 'HTML + SASS/SCSS/CSS',
-    competency: 3,
+    competency: 4,
     category: ['Web Development', 'Languages'],
   },
   {
@@ -94,23 +106,8 @@ const skills = [
   },
   {
     title: 'Java',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'MATLAB',
     competency: 3,
     category: ['Languages'],
-  },
-  {
-    title: 'GraphQL',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'Matplotlib',
-    competency: 3,
-    category: ['Data Engineering', 'Data Science', 'Python'],
   },
   {
     title: 'Scikit-Learn',
