@@ -18,10 +18,10 @@ const positions = [
     link: 'https://hennge.com/global/gip/remote.html',
     daterange: 'January - February 2022',
     points: [
-      'A Cloud Computing company based in Tokyo, Japan. Joined their Global Internship Program.',
-      'Hands on experience with full-stack development using Go and React with Typescript.',
-      'Hands on experience with Docker containerization, zero-downtime deployment with AWS ECS and ALB.',
-      'Deployed and managed cloud Infrastructure on AWS using Terraform.',
+      'A Cloud Computing company based in Tokyo, Japan. Joined their Global Internship Program',
+      'Hands on experience with full-stack development using Go and React with Typescript',
+      'Hands on experience with Docker containerization, zero-downtime deployment with AWS ECS and ALB',
+      'Deployed and managed cloud Infrastructure on AWS using Terraform',
     ],
   },
   {
